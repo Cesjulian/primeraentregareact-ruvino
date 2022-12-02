@@ -1,0 +1,16 @@
+.inputWidth {
+    width: 60vw;
+}
+
+.bgColor {
+    background-color: rgba(175, 172, 172, 0.342);
+}
+
+.logoTienda {
+    border-radius: 5%;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 9.5rem;
+    height: 9.5rem;
+}
