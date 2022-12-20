@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import logotienda2 from './logotienda2.gif'
 import Cartwidget from '../Cartwidget/Cartwidget'
+import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -20,11 +21,16 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link active" href="#">Iphone</a>
+                        <NavLink to="/" className="nav-link active">Home</NavLink>
+                        <NavLink to="/category/:Iphones" className="nav-link active">Iphone</NavLink>
+                        <NavLink to="/category/:MacBook" className="nav-link active">MacBook</NavLink>
+                        <NavLink to="/category/:Ipad" className="nav-link active">Ipad</NavLink>
+                        <NavLink to="/category/:AppleWatch" className="nav-link active">AppleWatch</NavLink>
+                        {/*<a className="nav-link active" href="#">Iphone</a>
                         <a className="nav-link active" href="#">MacBook</a>
                         <a className="nav-link active" href="#">Ipad</a>
-                        <a className="nav-link active" href="#">AppleWatch</a>
-                        <Cartwidget/>
+                        <a className="nav-link active" href="#">AppleWatch</a> */}
+                        <Cartwidget />
                     </div>
                 </div>
             </div>

@@ -1,14 +1,11 @@
 import React from 'react'
 import './ItemListContainer.css'
+import Cards from '../Cards/Cards'
 
-const ItemListContainer = (props) => {
-
-    const { greeting } = props
+const ItemListContainer = () => {
 
     return (
-        <div>
-            <h1 className='tituloBienvenida'>{greeting}</h1>
-        </div>
+        <Cards />
     )
 }
 
