@@ -22,14 +22,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <NavLink to="/" className="nav-link active">Home</NavLink>
-                        <NavLink to="/category/:Iphones" className="nav-link active">Iphone</NavLink>
-                        <NavLink to="/category/:MacBook" className="nav-link active">MacBook</NavLink>
+                        <NavLink to="/category/:Iphone" className="nav-link active">Iphone</NavLink>
+                        <NavLink to="/category/:Mac" className="nav-link active">MacBook</NavLink>
                         <NavLink to="/category/:Ipad" className="nav-link active">Ipad</NavLink>
-                        <NavLink to="/category/:AppleWatch" className="nav-link active">AppleWatch</NavLink>
-                        {/*<a className="nav-link active" href="#">Iphone</a>
-                        <a className="nav-link active" href="#">MacBook</a>
-                        <a className="nav-link active" href="#">Ipad</a>
-                        <a className="nav-link active" href="#">AppleWatch</a> */}
+                        <NavLink to="/category/:Watch" className="nav-link active">AppleWatch</NavLink>
                         <Cartwidget />
                     </div>
                 </div>

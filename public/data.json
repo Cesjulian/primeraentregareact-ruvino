@@ -1,0 +1,18 @@
+[
+    {"id" : 1, "categoria" : "Watch", "nombre" : "Apple Watch Series 8", "precio" : 1000, "marca" : "Apple", "imagen" : ""},
+    {"id" : 2, "categoria" : "Watch", "nombre" : "Apple Watch SE", "precio" : 1200, "marca" : "Apple", "imagen" : ""},
+    {"id" : 3, "categoria" : "Watch", "nombre" : "Apple Watch Ultra", "precio" : 800, "marca" : "Apple", "imagen" : ""},
+    {"id" : 4, "categoria" : "IPad", "nombre" : "IPad Pro", "precio" : 4500, "marca" : "Apple", "imagen" : ""},
+    {"id" : 5, "categoria" : "IPad", "nombre" : "IPad Air", "precio" : 2350, "marca" : "Apple", "imagen" : ""},
+    {"id" : 6, "categoria" : "IPad", "nombre" : "IPad (decima generacion)", "precio" : 1890, "marca" : "Apple", "imagen" : ""},
+    {"id" : 7, "categoria" : "IPad", "nombre" : "IPad (novena generacion)", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 8, "categoria" : "IPad", "nombre" : "IPad mini", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 9, "categoria" : "Mac", "nombre" : "MacBook Air (chip M1)", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Mac", "nombre" : "MacBook Air (chip M2)", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Mac", "nombre" : "MacBook Pro 14 y 16 pulgadas", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 14 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 13 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 12 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 11 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : ""},
+    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone XS Max", "precio" : 3700, "marca" : "Apple", "imagen" : ""}
+]

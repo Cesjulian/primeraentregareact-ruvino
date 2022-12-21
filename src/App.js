@@ -12,13 +12,13 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <ItemListContainer/>
       </div>
+    
       <Routes>
         <Route path='/cart' element={<Cart />} />
         <Route path='/item/:id' element={<Item />} />
         <Route path='/' element={<ItemListContainer />} />
-        <Route path='/category/:cat' element={<ItemListContainer />} />
+        <Route path='/categoria/:' element={<ItemListContainer />} />
         <Route path='/item/:id' element={<ItemDetailContainer/>} />
         <Route path='/checkout' element={<Checkout />} />
       </Routes>
