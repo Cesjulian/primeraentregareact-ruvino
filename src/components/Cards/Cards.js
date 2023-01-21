@@ -27,7 +27,7 @@ const Cards = (props) => {
 
     return (
 
-        <div className="row justify-content-center">
+        <div className="container-fluid row justify-content-center me-0 ms-0">
             {data.map(
                 ({ nombre, precio, marca, imagen, id , categoria}, indice) => (
                     <div className="card col-sm-12 col-lg-3 m-3" style={{ width: "18rem" }}>

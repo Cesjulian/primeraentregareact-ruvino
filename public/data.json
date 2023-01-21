@@ -8,11 +8,11 @@
     {"id" : 7, "categoria" : "IPad", "nombre" : "IPad (novena generacion)", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_788302-MLA52940635457_122022-O.jpg"},
     {"id" : 8, "categoria" : "IPad", "nombre" : "IPad mini", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.macstation.com.ar/img/productos/2898-2.jpg"},
     {"id" : 9, "categoria" : "Mac", "nombre" : "MacBook Air (chip M1)", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.venex.com.ar/products_images/1663351243_air-6.png"},
-    {"id" : 10, "categoria" : "Mac", "nombre" : "MacBook Air (chip M2)", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_804908-MLA52927253147_122022-O.webp"},
-    {"id" : 10, "categoria" : "Mac", "nombre" : "MacBook Pro 14 y 16 pulgadas", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.macstation.com.ar/img/productos/2616-1.jpg"},
-    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 14 Pro", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_726811-MLM51559388195_092022-O.webp"},
-    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 13 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.macstation.com.ar/img/productos/2600-3.jpg"},
-    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 12 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-12-pro-max-gold-2020?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1635202937000"},
-    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone 11 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_695863-MLA32646836777_102019-O.jpg"},
-    {"id" : 10, "categoria" : "Iphone", "nombre" : "Iphone XS Max", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.tradeinn.com/f/13759/137594118/apple-iphone-x-256gb-5.8-reacondicionado.jpg"}
+    {"id" : 11, "categoria" : "Mac", "nombre" : "MacBook Air (chip M2)", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_804908-MLA52927253147_122022-O.webp"},
+    {"id" : 12, "categoria" : "Mac", "nombre" : "MacBook Pro 14 y 16 pulgadas", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.macstation.com.ar/img/productos/2616-1.jpg"},
+    {"id" : 13, "categoria" : "Iphone", "nombre" : "Iphone 14 Pro", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_726811-MLM51559388195_092022-O.webp"},
+    {"id" : 14, "categoria" : "Iphone", "nombre" : "Iphone 13 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.macstation.com.ar/img/productos/2600-3.jpg"},
+    {"id" : 15, "categoria" : "Iphone", "nombre" : "Iphone 12 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-12-pro-max-gold-2020?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1635202937000"},
+    {"id" : 16, "categoria" : "Iphone", "nombre" : "Iphone 11 ProMax", "precio" : 3700, "marca" : "Apple", "imagen" : "https://http2.mlstatic.com/D_NQ_NP_695863-MLA32646836777_102019-O.jpg"},
+    {"id" : 17, "categoria" : "Iphone", "nombre" : "Iphone XS Max", "precio" : 3700, "marca" : "Apple", "imagen" : "https://www.tradeinn.com/f/13759/137594118/apple-iphone-x-256gb-5.8-reacondicionado.jpg"}
 ]
