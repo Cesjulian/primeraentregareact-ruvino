@@ -1,35 +1,23 @@
-import axios from 'axios'
-import React from 'react'
 import { useEffect } from 'react';
-import { useState } from 'react'
+import useFirebase from '../hook/useFirebase';
 
-const Cards = (props) => {
+const Cards = () => {
 
-    const [data, setData] = useState([]);
+    const { productos, getProductos } = useFirebase();
 
     useEffect(() => {
+        getProductos();
+        return () => {
 
-        async function getData() {
-
-            try {
-                const { data } = await axios.get(`data.json`)
-                setData(data)
-            } catch (error) {
-                console.log("error")
-            }
-            return () => {
-                setData(data)
-            }
         }
+    }, [])
 
-        getData();
-    }, []);
 
     return (
 
         <div className="container-fluid row justify-content-center me-0 ms-0">
-            {data.map(
-                ({ nombre, precio, marca, imagen, id , categoria}, indice) => (
+            {productos.map(
+                ({ nombre, precio, marca, imagen, id, categoria }, indice) => (
                     <div className="card col-sm-12 col-lg-3 m-3" style={{ width: "18rem" }}>
                         <img className="card-img-top" src={imagen} alt="..." />
                         <div className="card-body">
@@ -38,7 +26,7 @@ const Cards = (props) => {
                             <h6 className="card-title">id del articulo:{id}</h6>
                             <h6 className="card-title">categoria:{categoria}</h6>
                             <p className="card-text">${precio}</p>
-                            <a id="botonAccion" className="btn btnColor" onClick="agregado({indice})">Comprar</a>
+                            <a id="botonAccion" className="btn btn-success">Comprar</a>
                         </div>
                     </div>
                 )
