@@ -3,8 +3,11 @@ import './Navbar.css'
 import logotienda2 from './logotienda2.gif'
 import Cartwidget from '../Cartwidget/Cartwidget'
 import { NavLink } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 
 const Navbar = () => {
+
+    const { categoria } = useParams()
 
     return (
         <nav className="navbar navbar-expand-lg flex-wrap bgColor">
@@ -22,10 +25,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <NavLink to="/" className="nav-link active">Home</NavLink>
-                        <NavLink to="/category/:Iphone" className="nav-link active">Iphone</NavLink>
-                        <NavLink to="/category/:Mac" className="nav-link active">MacBook</NavLink>
-                        <NavLink to="/category/:Ipad" className="nav-link active">Ipad</NavLink>
-                        <NavLink to="/category/:Watch" className="nav-link active">AppleWatch</NavLink>
+                        <NavLink to="/categoria/Iphone" className="nav-link active">Iphone</NavLink>
+                        <NavLink to="/categoria/Mac" className="nav-link active">MacBook</NavLink>
+                        <NavLink to="/categoria/Ipad" className="nav-link active">Ipad</NavLink>
+                        <NavLink to="/categoria/Watch" className="nav-link active">AppleWatch</NavLink>
                         <Cartwidget />
                     </div>
                 </div>
